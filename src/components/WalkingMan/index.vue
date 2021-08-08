@@ -6,10 +6,10 @@
 
 <script>
 import lottie from "lottie-web";
-import Anim from "@/assets/test.json";
+import Anim from "./assets/test.json";
 
 export default {
-  name: "waking-man",
+  name: "walkingMan",
   mounted() {
     const anlottie = lottie.loadAnimation({
       // the dom element that will contain the animation

@@ -1,2 +1,2 @@
-import WalkingMan from "./components/WalkingMan";
+import WalkingMan from "./WalkingMan";
 export { WalkingMan };

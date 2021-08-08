@@ -1,5 +1,5 @@
 {
-  "name": "lottie",
+  "name": "component-library",
   "version": "0.1.0",
   "private": true,
   "main": "src/components/index.js",
