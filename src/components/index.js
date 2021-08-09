@@ -1,2 +1,3 @@
 import WalkingMan from "./WalkingMan";
-export { WalkingMan };
+import PeopleProgressing from "./PeopleProgressing";
+export { WalkingMan, PeopleProgressing };
