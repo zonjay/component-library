@@ -8,11 +8,11 @@
       <div class="triangle-container" v-if="n + 1 === level">
         <div class="triangle-up"></div>
       </div>
-      <img :src="people.PeopleActive" alt="" :key="n" />
+      <img src="/assets/icn_people_active.svg" alt="" :key="n" />
     </div>
     <div>
       <img
-        :src="PeopleDefault"
+        src="/assets/icn_people _default.svg"
         alt=""
         v-for="(people, n) in defaults"
         :key="n"
@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import PeopleDefault from "./assets/icn_people _default.svg";
-import PeopleActive from "./assets/icn_people_active.svg";
+import PeopleDefault from "../assets/icn_people _default.svg";
+import PeopleActive from "../assets/icn_people_active.svg";
 
 export default {
   name: "PeopleProgressing",

@@ -1,18 +1,13 @@
 <template>
-  <WalkingMan />
-  <PeopleProgressing :score="80" />
+  <span>123</span>
+  <PeopleProgressing :score="100" />
 </template>
 
 <script>
-import WalkingMan from "./components/WalkingMan";
-import PeopleProgressing from "./components/PeopleProgressing";
+
 
 export default {
   name: "App",
-  components: {
-    WalkingMan,
-    PeopleProgressing
-  },
 };
 </script>
 
